@@ -1,0 +1,27 @@
+DATASET Bike_Rent:
+
+O conjunto de dados é de uma empresa de aluguel de bicicletas, e a empresa deseja prever a demanda de bicicletas no futuro, considerando diversos fatores, como data, feriados, temperatura, humidade, velocidade do vento, quantidade total de bicicletas alugadas...
+
+
+Colunas:
+
+dteday : data
+season : estação (1: primavera, 2: verão, 3: outono, 4: inverno)
+yr : ano
+mnth : mês
+holiday : feriado
+weekday : dia da semana
+workingday : dia útil de trabalho
+weathersit : situação climática
+temp : temperatura em Celsius
+atemp: temperatura sentida em Celsius
+hum: umidade
+windspeed: velocidade do vento
+casual: contagem de usuários casuais
+registered: contagem de usuários registrados
+cnt: contagem total de bicicletas alugadas, incluindo (usuários casuais + registrados)
+
+-----------------------------
+Métrica: ?
+-----------------------------
+Sugestão: usar temp
